@@ -15,7 +15,7 @@ Facile et rapide à déployer, pollue peu l'envirronement de travail | Cuda plus
 ## Pour un déploiement basique : 
 
 
-> <span style="color: red; font-weight: bold">⚠️ Attention :</span> Si vous souhaitez utiliser cuda avec une installation docker, lisez [le paragraphe suivant](#-Cuda- avec-Docker) afin d'installer cuda avant de lancer l'image de MindsDB
+> <span style="color: red; font-weight: bold">⚠️ Attention :</span> Si vous souhaitez utiliser cuda avec une installation docker, lisez [le paragraphe suivant](#cuda-avec-docker) afin d'installer cuda avant de lancer l'image de MindsDB
 
 
 ```bash
@@ -53,7 +53,7 @@ nvidia-smi
 ```
 
 
-Si elle ne fonctionne pas, vous pouvez lire le paragraphe [donnant des précisions sur cuda](#-Précisions-sur-Cuda).
+Si elle ne fonctionne pas, vous pouvez lire le paragraphe [donnant des précisions sur cuda](#précisions-sur-cuda).
 
 
 Ensuite, il faut installer [nvidia-runtime-container](https://github.com/NVIDIA/nvidia-container-runtime/), la documentation est disponible sur le [site de documentation de nvidia](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#setting-up-nvidia-container-toolkit).
